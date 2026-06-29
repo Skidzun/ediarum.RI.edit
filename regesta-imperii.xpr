@@ -11247,6 +11247,9 @@ and ancestor-or-self::ref[@subtype='nurErwaehnt']</String>
                                                                 </field>
                                                             </validationUnitSchema>
                                                         </field>
+                                                        <field name="validationAdvancedSettings">
+                                                            <null/>
+                                                        </field>
                                                     </validationUnit>
                                                 </list>
                                             </field>
@@ -11318,14 +11321,6 @@ and ancestor-or-self::ref[@subtype='nurErwaehnt']</String>
                     <entry>
                         <String>document.types.order</String>
                         <documentTypeEntry-array>
-                            <documentTypeEntry>
-                                <field name="documentTypeID">
-                                    <String>3/ediarum_hkw/ediarum.hkw.edit.framework/ediarum.hkw.edit</String>
-                                </field>
-                                <field name="enable">
-                                    <Boolean>false</Boolean>
-                                </field>
-                            </documentTypeEntry>
                             <documentTypeEntry>
                                 <field name="documentTypeID">
                                     <String>2/internal/CAGB - Dateiendung</String>

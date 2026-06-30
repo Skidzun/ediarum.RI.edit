@@ -11361,6 +11361,30 @@ and ancestor-or-self::ref[@subtype='nurErwaehnt']</String>
                                     <Boolean>false</Boolean>
                                 </field>
                             </documentTypeEntry>
+                            <documentTypeEntry>
+                                <field name="documentTypeID">
+                                    <String>4/ediarum_ri/regesta_imperii_regesten.framework/Regesta Imperii – Regesten</String>
+                                </field>
+                                <field name="enable">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </documentTypeEntry>
+                            <documentTypeEntry>
+                                <field name="documentTypeID">
+                                    <String>4/ediarum_ri/regesta_imperii_register.framework/Regesta Imperii – Register</String>
+                                </field>
+                                <field name="enable">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </documentTypeEntry>
+                            <documentTypeEntry>
+                                <field name="documentTypeID">
+                                    <String>4/ediarum_ri/regesta_imperii_register_readonly.framework/Regesta Imperii – Register – READONLY</String>
+                                </field>
+                                <field name="enable">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </documentTypeEntry>
                         </documentTypeEntry-array>
                     </entry>
                     <entry>
@@ -11390,6 +11414,51 @@ and ancestor-or-self::ref[@subtype='nurErwaehnt']</String>
                     <entry>
                         <String>key.extensions.update.site.option.pane</String>
                         <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>regesta-imperii.xpr</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>6/ant/ant.framework/ANT/Ant</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>regesta_imperii_regesten.framework</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>6/ant/ant.framework/ANT/Ant</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
                     </entry>
                     <entry>
                         <String>user.defined.editor.variables</String>

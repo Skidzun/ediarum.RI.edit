@@ -199,6 +199,7 @@
                             <value>siegel</value>
                             <value>incipit</value>
                             <value>unterschriften</value>
+                            <value>notizfeld</value>
                         </choice>
                     </attribute>
                     <oneOrMore>    

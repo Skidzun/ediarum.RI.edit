@@ -157,6 +157,18 @@ bibl[type='kurztitel']:after {
     padding-left: 0.3em;
 }
 
+ref[type='external']:after {
+    content: url('gfx/verweis.gif');
+    link: oxy_concat("") attr(target);
+    padding-left: 0.3em;
+}
+
+ref[type='druckregest']:after {
+    content: url('gfx/druckregesten.png');
+    link: oxy_concat("https://www.regesta-imperii.de/id/") attr(target);
+    padding-left: 0.3em;
+}
+
 ref {
     color: #1F5393;
     -oxy-display-tags: none;

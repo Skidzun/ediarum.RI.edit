@@ -153,7 +153,19 @@ bibl {
 
 bibl[type='kurztitel']:after {
     content: url('gfx/title_ref_before.png');
-    link: oxy_concat("http://opac.regesta-imperii.de/lang_de/kurztitelsuche_r.php?kurztitel=") attr(corresp);
+    link: oxy_concat("https://opac.regesta-imperii.de/lang_de/anzeige.php?pk=") attr(corresp);
+    padding-left: 0.3em;
+}
+
+ref[type='external']:after {
+    content: url('gfx/verweis.gif');
+    link: oxy_concat("") attr(target);
+    padding-left: 0.3em;
+}
+
+ref[type='druckregest']:after {
+    content: url('gfx/druckregesten.png');
+    link: oxy_concat("https://www.regesta-imperii.de/id/") attr(target);
     padding-left: 0.3em;
 }
 

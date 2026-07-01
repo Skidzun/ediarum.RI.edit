@@ -86,6 +86,11 @@ div[type="kommentar"]:before {
     content: "Kommentar";
 }
 
+div[type="notizfeld"]:before {
+    content: "Notizfeld";
+    -oxy-display-tags: none;
+}
+
 div[type="literatur"]:before {
     content: "Literatur";
 }

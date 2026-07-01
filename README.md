@@ -1,6 +1,6 @@
 # ediarum.RI.edit
 
-Version 4.1.1
+Version 4.2.1
 
 ediarum.RI.edit ist eine ediarum-Bearbeitungsoberfläche (für Regesten und Register) im Oxygen XML Author für das Akademienprojekt Regesta Imperii (http://www.regesta-imperii.de).
 
@@ -11,3 +11,4 @@ ediarum.RI.edit ist eine ediarum-Bearbeitungsoberfläche (für Regesten und Regi
 * Julian Jarosch, AdWL (seit 2019)
 * Stefan Dumont, BBAW (Initialentwicklung 2015–2018)
 * Anna Prusova, RI (seit 2023)
+* Frederik Skidzun, RI (seit 2026)

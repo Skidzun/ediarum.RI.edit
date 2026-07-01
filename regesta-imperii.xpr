@@ -11420,7 +11420,7 @@ and ancestor-or-self::ref[@subtype='nurErwaehnt']</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>regesta-imperii.xpr</String>
+                                    <String>../../RI/abt42/regesta-imperii-manmax-regesten.framework</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -11440,7 +11440,27 @@ and ancestor-or-self::ref[@subtype='nurErwaehnt']</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>regesta_imperii_regesten.framework</String>
+                                    <String>../../RI/abt20/regesta-imperii-abt20/abt20.xpr</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>6/ant/ant.framework/ANT/Ant</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>regesta-imperii.xpr</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

@@ -11,11 +11,14 @@ authors:
   - given-names: Anna
     family-names: Prusova
     affiliation: Regesta Imperii
+  - given-names: Frederik
+    family-names: Skidzun
+    affiliation: Regesta Imperii
 title: ediarum.RI.edit 
 abstract: "ediarum.RI.edit is a user interface for regesta and their indexes in Oxygen XML Author for the research project “Regesta Imperii” (http://www.regesta-imperii.de/)."
 type: software
-date-released: "2026-03-31"
-version: 4.1.1
+date-released: "2026-07-01"
+version: 4.2.1
 repository-code: "https://github.com/ediarum/ediarum.RI.edit"
 url: "http://www.regesta-imperii.de"
 cff-version: 1.2.0
